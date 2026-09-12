@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("songModel", &songModel);
-    engine.loadFromModule("MyApp", "Main");
+    engine.loadFromModule("echomp", "Main");
 
     if (engine.rootObjects().isEmpty())
         return -1;
